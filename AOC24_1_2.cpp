@@ -6,7 +6,7 @@
 #include <bits/stdc++.h>
 
 int main() {
-    std::ifstream inputFile("sample.txt"); // Replace "data.txt" with your file name
+    std::ifstream inputFile("input.txt");
     if (!inputFile) {
         std::cerr << "Error: Could not open the file!" << std::endl;
         return 1;
